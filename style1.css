@@ -1,0 +1,40 @@
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+header {
+    background-color:burlywood;
+    width: 100%;
+    padding: 10px 200px;
+    z-index: 999;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo{
+    text-decoration:none;
+    font-size:1.8em;
+    font-weight:700;
+    text-transform:uppercase;
+    color:brown;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: brown;
+    padding-left: 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+        color: blue;
+    }
